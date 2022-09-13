@@ -178,12 +178,10 @@ public class Basics {
          */
         int arrLen = arr.length;
 
-        if (arr.length <= 1){
-            return 0;
-        }
-
-        for (int i=1; i <= arrLen; i+=2) {
-            current_sum += arr[i];
+        if (arr.length > 1){
+            for (int i=1; i <= arrLen; i+=2) {
+                current_sum += arr[i];
+            }
         }
 
         return current_sum;
