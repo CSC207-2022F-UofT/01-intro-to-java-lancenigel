@@ -179,7 +179,7 @@ public class Basics {
         int arrLen = arr.length;
 
         if (arr.length > 1){
-            for (int i=1; i <= arrLen; i+=2) {
+            for (int i=1; i <= arrLen-1; i+=2) {
                 current_sum += arr[i];
             }
         }
